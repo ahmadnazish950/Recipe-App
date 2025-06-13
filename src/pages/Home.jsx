@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b bg-[#1e1e1e] text-white">
 
-      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('/top-view-table-full-delicious-food-composition.jpg')] bg-cover bg-center relative">
+      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('/top-food.jpg')] bg-cover bg-center relative">
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
             Welcome to <span className="text-teal-300">TasteBuds 🍽️</span>
