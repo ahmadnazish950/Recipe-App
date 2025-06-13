@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b bg-[#1e1e1e] text-white">
 
-      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('/images/top-view-table-full-delicious-food-composition.jpg')] bg-cover bg-center relative">
+      <section className="h-screen flex flex-col justify-center items-center text-center px-4 bg-[url('/image/top-view-table-full-delicious-food-composition.jpg')] bg-cover bg-center relative">
         <div className="relative z-10 max-w-3xl">
           <h1 className="text-5xl md:text-6xl font-extrabold leading-tight">
             Welcome to <span className="text-teal-300">TasteBuds 🍽️</span>
@@ -25,7 +25,7 @@ const Home = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {[
             {
-              image: "/images/spice paneer delight.jpg",
+              image: "/image/spice-paneer-delight.jpg",
               title: "Spicy Paneer Delight",
               desc: "Tasty, quick and healthy. Perfect for your cravings."
             },
